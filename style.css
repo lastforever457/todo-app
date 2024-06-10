@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 450px;
+    min-height: 600px;
+}
+
+#offcanvas-btn {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.list-group li {
+    cursor: pointer;
+}
+
+.list-item-wrapper {
+    width: 100%;
+    height: 100%;
+}
